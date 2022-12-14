@@ -6,7 +6,7 @@ import uvicorn
 from core.router import set_routers
 from core import settings
 
-app = FastAPI(title="Python-FastApi")
+app = FastAPI(title="Sharaga")
 
 @app.on_event("startup")
 async def startup():
